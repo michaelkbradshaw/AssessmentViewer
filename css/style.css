@@ -1,0 +1,118 @@
+.center {
+    margin:auto; 
+}
+.goal
+{
+    display:block;
+    background-color: red;
+    float:left;
+    border:solid black;
+    border-radius: 20px;
+    padding:10px;
+    /*overflow:hidden;*/
+    
+}
+
+.slo
+{
+    display:block;
+    width:125px;
+    float:left;
+    background-color:green;
+    padding:10px;
+    margin:5px;
+    border-radius:20px;
+}
+
+.header
+{
+    width:1200px;
+    background-color:rgb(242, 255, 0);
+    border-radius: 30px 30px 0px 0px;
+
+}
+
+.header-title
+{
+    font-size:3rem;
+    text-align:center;
+}
+
+.header-description
+{
+    font-size:1.25rem;
+    padding:1rem;
+    text-align:center;
+}
+
+.goal-title
+{
+    font-size: 1.5rem;
+    text-align:center;
+    margin:1rem;
+}
+
+.goal-description
+{
+    font-size: 1rem;
+    width:175px;
+    text-align:center;
+    padding-bottom:1rem;
+    height:2em;
+    overflow:hidden;
+}
+
+.slo-title
+{
+    font-size: 1.25rem;
+    text-align:center;
+    padding:1rem;
+    height:3rem;
+    padding-bottom: 40px;
+}
+
+
+.container
+{
+    width:1280px;
+    background-color:bisque;
+    overflow:hidden;
+    
+}
+
+.interventions,.goal-container
+{
+    float:left;
+}
+
+.interventions
+{
+    background-color:bisque;
+    width:175px;
+}
+
+.interventions .top
+{
+    height:290px;
+    background-color:orange;
+    /*width:150px;*/
+    margin-bottom:1em;
+}
+
+.intervention
+{
+    font-size:1.25rem;
+    height:3rem;
+    padding:1em 0;
+    margin-top:1em;
+    /*width:150px;*/
+}
+
+svg.intervention-strength
+{
+    font-size:1.25rem;
+    height:100;
+    width:100;
+    padding: 20px 12px;
+    /*width:150px;*/
+}
