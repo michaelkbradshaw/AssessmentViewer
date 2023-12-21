@@ -10,7 +10,7 @@
             "icon":"",
             "id":"G AAA",
             "title":"Goal AAA",
-            "short":"Lorem Ipsum Neque porro quisquam est",
+            "short":"Lorem Ipsum Neque porro quisquam est but that is just the part of the story that you know, not the part of the story that you need to know",
             "long":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis elit porttitor, ultricies purus ac, sagittis mauris. Aenean ac mi ex. Sed ultrices erat volutpat nisl maximus euismod. Duis vitae magna ligula. Duis id lacus convallis, dapibus urna quis, lobortis ex. Curabitur ornare rutrum ultricies.",
             "slos":[
                 {
@@ -45,7 +45,7 @@
                 {
                     "icon":"",
                     "id":"S BBB bbb",
-                    "title":"SLO bbb",
+                    "title":"SLO bbb Generational Support",
                     "short":"Lorem Ipsum Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
                     "long":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis elit porttitor, ultricies purus ac, sagittis mauris. Aenean ac mi ex. Sed ultrices erat volutpat nisl maximus euismod. Duis vitae magna ligula. Duis id lacus convallis, dapibus urna quis, lobortis ex. Curabitur ornare rutrum ultricies.",
                     "assessments":[
@@ -172,7 +172,7 @@
     },
     "interventions":[
         {
-            "icon":"",
+            "icon":"/imgs/brain.svg",
             "id":"I aaa",
             "title":"Intervention A",
             "short":"Lorem Ipsum Neque porro quisquam est qui",
@@ -186,7 +186,7 @@
                 {
                     "id":"S BBB bbb",
                     "strength":75,
-                    "why":"Cause it does"
+                    "why":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis elit porttitor, ultricies purus ac, sagittis mauris. Aenean ac mi ex. Sed ultrices erat volutpat nisl maximus euismod. Duis vitae magna ligula. Duis id lacus convallis, dapibus urna quis, lobortis ex. Curabitur ornare rutrum ultricies."
                 },
                 {
                     "id":"S CCC ddd",
@@ -196,7 +196,7 @@
                 ]
         },
         {
-            "icon":"",
+            "icon":"/imgs/trophies-shelf.svg",
             "id":"I bbb",
             "title":"Intervention B",
             "short":"Lorem Ipsum Neque porro quisquam est qui",
@@ -210,7 +210,7 @@
                 ]
         },
         {
-            "icon":"",
+            "icon":"/imgs/bottled-bolt.svg",
             "id":"I ccc",
             "title":"Intervention C",
             "short":"Lorem Ipsum Neque porro quisquam est qui",

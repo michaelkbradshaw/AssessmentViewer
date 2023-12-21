@@ -1,0 +1,27 @@
+[
+    {
+        "icon":"/imgs/brain.svg",
+        "description":"brain",
+        "author":"Lorc",
+        "author_link":"https://lorcblog.blogspot.com/",
+        "licence":"CC by 3.0",
+        "licence_link":"https://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+        "icon":"/imgs/trophies-shelf.svg",
+        "description":"trophies",
+        "author":"Delapouite",
+        "author_link":"https://delapouite.com/",
+        "licence":"CC by 3.0",
+        "licence_link":"https://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+        "icon":"/imgs/bottled-bolt.svg",
+        "description":"Bottled Lightning",
+        "author":"Lorc",
+        "author_link":"https://lorcblog.blogspot.com/",
+        "licence":"CC by 3.0",
+        "licence_link":"https://creativecommons.org/licenses/by/3.0/"
+    }
+
+]

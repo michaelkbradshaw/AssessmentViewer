@@ -1,118 +1,194 @@
-.center {
-    margin:auto; 
+
+body
+{
+    font-family: galaxie-copernicus-book,serif;
 }
+
+.mission
+{
+    /*background-color:#FFCD00;
+    color:black;
+    */
+    background-color: #46351D;
+    color:white;
+
+    border-color: black;
+}
+
 .goal
 {
-    display:block;
-    background-color: red;
-    float:left;
-    border:solid black;
-    border-radius: 20px;
-    padding:10px;
-    /*overflow:hidden;*/
-    
+    /*background-color:#6abcb6; 
+    color:black;
+    */
+   
+    background-color:#B1CA3F;
+    color:black;
+    border-color: black;
+
 }
 
 .slo
 {
-    display:block;
-    width:125px;
+    background-color:#38A0E5;
+    color:black;
+
+}
+
+
+.assessment
+{
+    background-color:#85FFF3;
+    color:black;
+}
+
+.intervention
+{
+    background-color:#42B391;
+    color:black;
+
+}
+
+
+
+.center {
+    margin:auto; 
+}
+
+.tier1
+{
+    width:1000px;
+    border-radius: 30px;
+    font-size:2rem;
+    text-align:center;
+    padding:1em;
+    border:solid black;
+    border-width: 5px;
+    box-shadow:10px 10px 10px grey;
+    overflow:auto;
+}
+
+.tier2
+{
+    
+    display:flex;
     float:left;
-    background-color:green;
+    clear:left;
+    border:solid black;
+    text-align:center;
+    border-radius: 20px;
+    padding:10px;
+    font-size:1.25rem;
+    margin-left:40px;
+    margin-top:20px;
+    box-shadow:10px 10px 10px grey;    
+}
+
+.tier3
+{
+    font-size:.8rem;
+    display:flex;
+    float:right;
+    clear:right;
+    border:solid black;
+    
     padding:10px;
     margin:5px;
     border-radius:20px;
 }
 
-.header
+.tier4
 {
-    width:1200px;
-    background-color:rgb(242, 255, 0);
-    border-radius: 30px 30px 0px 0px;
+    font-size:1rem;
+    display:flex;
+    float:left;
+    clear:left;
+    border:solid black;
+    text-align:center;
+    border-radius: 20px;
+    padding:10px;
+    margin-left:100px;
+    margin-top:20px;
+    box-shadow:10px 10px 10px grey;    
+
+  
 
 }
 
-.header-title
+
+.title
 {
-    font-size:3rem;
-    text-align:center;
+    font-size: 2em;
+    padding-bottom: .25em;
 }
 
-.header-description
+.description
 {
-    font-size:1.25rem;
-    padding:1rem;
-    text-align:center;
+    padding-bottom:1em;
+    margin:1em;
 }
 
-.goal-title
+.tier2>.header
 {
-    font-size: 1.5rem;
-    text-align:center;
-    margin:1rem;
+    width:350px;
+    float:left;
+    margin: 20px;
 }
 
 .goal-description
 {
     font-size: 1rem;
-    width:175px;
+    /*width:175px;*/
     text-align:center;
     padding-bottom:1rem;
-    height:2em;
-    overflow:hidden;
 }
-
-.slo-title
+.tier3Container
 {
-    font-size: 1.25rem;
-    text-align:center;
-    padding:1rem;
-    height:3rem;
-    padding-bottom: 40px;
+    float:left;
 }
-
-
-.container
+.tier3>.title
 {
-    width:1280px;
-    background-color:bisque;
-    overflow:hidden;
-    
+    width:200px;
 }
 
-.interventions,.goal-container
+
+.icons
+{
+    display:flex;
+    align-items:center;
+}
+
+.goal-container
 {
     float:left;
 }
 
-.interventions
+.intervention-icon
 {
-    background-color:bisque;
-    width:175px;
+    float:left;
+    width:50px;
+    height:50px;
 }
 
-.interventions .top
+
+
+.tier4 img
 {
-    height:290px;
-    background-color:orange;
-    /*width:150px;*/
-    margin-bottom:1em;
+float:left;
+clear:left;
+width:150px;
+height:150px;
 }
 
-.intervention
+.tier4 .colum2
 {
-    font-size:1.25rem;
-    height:3rem;
-    padding:1em 0;
-    margin-top:1em;
-    /*width:150px;*/
+    float:left;
+    width:350px;
+    padding:10px;
 }
 
-svg.intervention-strength
+.tier4 .why
 {
-    font-size:1.25rem;
-    height:100;
-    width:100;
-    padding: 20px 12px;
-    /*width:150px;*/
+    margin-top:30px;
+    margin-left:50px;
+    float:left;
 }
