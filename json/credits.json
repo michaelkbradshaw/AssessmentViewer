@@ -38,6 +38,14 @@
         "author_link":"https://commons.m.wikimedia.org/wiki/File:BackButton.svg",
         "license":"CC0 1.0",
         "license_link":"https://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+        "icon":"/imgs/Check-list.svg",
+        "description":"Check-list",
+        "author":"Icons8, CC0, via Wikimedia Commons",
+        "author_link":"https://thenounproject.com/icon/50370",
+        "license":"CC0 1.0",
+        "license_link":"https://creativecommons.org/publicdomain/zero/1.0/deed.en"
     }
 
 ]
