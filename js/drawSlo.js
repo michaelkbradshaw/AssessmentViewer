@@ -14,6 +14,21 @@ function drawHeader(target,jsonData,goal)
     header.append("div")
     .classed("description",true)
     .text(goal.short)
+
+    const nav = header.append("div")
+    .classed("nav",true);
+
+    nav.append("a")
+    .attr("href","about.html")    
+    .append("img")
+    .attr("src","/imgs/info.svg")
+
+    nav.append("a")
+    .attr("href","index.html")    
+    .append("img")
+    .attr("src","/imgs/BackButton.svg")
+
+
     
     return header;
 }
@@ -39,6 +54,27 @@ function drawAssessments(goals,slo)
     slos.append("div")
     .classed("description",true)
     .text((ment)=>ment.short)
+    .append("a")
+    .attr("href",(ment)=>ment.link)
+    .text("link to rubric");
+
+    slos.on("click",function(eventData,ment)
+    {   
+        window.location.href = ment.link;
+    })
+    slos.on("mouseenter",function()
+    {
+        d3.select(this)
+        .style("transform","scale(1.05)")
+    })
+    slos.on("mouseleave",function()
+    {
+        d3.select(this)
+        .style("transform",null)
+    })
+
+
+
 }
 
 function drawSlo(target,slo)

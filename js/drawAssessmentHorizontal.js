@@ -14,6 +14,14 @@ function drawHeader(target,jsonData)
     .classed("description",true)
     .text(jsonData.mission.short)
     
+    const nav = header.append("div")
+    .classed("nav",true);
+
+    nav.append("a")
+    .attr("href","about.html")    
+    .append("img")
+    .attr("src","/imgs/info.svg")
+
     return header;
 }
 
@@ -40,6 +48,16 @@ function drawSlos(goals,jsonData)
 
         window.location.href = "drawSlo.html?goal="+goal.id+"&"+"slo="+slo.id;
     })
+    slos.on("mouseenter",function()
+    {
+        d3.select(this)
+        .style("transform","scale(1.05)")
+    })
+    slos.on("mouseleave",function()
+    {
+        d3.select(this)
+        .style("transform",null)
+    })
 
 
 
@@ -62,6 +80,25 @@ function drawSlos(goals,jsonData)
         { return vent.icon;}
         return null;
     })
+    .on("mouseenter",function(eventData,vent)
+    {
+        const xPosition = eventData.pageX+15;
+        const yPosition = eventData.pageY-50;
+
+        const target = d3.select("#tooltip");
+
+        target.classed("hidden",false)
+        .style("left",xPosition+"px")
+        .style("top",yPosition+"px")
+
+        target.select(".title")
+        .text(vent.title);
+    })
+    .on("mouseleave",function(eventData,character)
+        {
+            var target = d3.select("#tooltip");
+            target.classed("hidden",true);
+        });
 
     
 

@@ -61,8 +61,7 @@ body
     font-size:2rem;
     text-align:center;
     padding:1em;
-    border:solid black;
-    border-width: 5px;
+    border:5px solid black;
     box-shadow:10px 10px 10px grey;
     overflow:auto;
 }
@@ -73,7 +72,7 @@ body
     display:flex;
     float:left;
     clear:left;
-    border:solid black;
+    border:3px solid black;
     text-align:center;
     border-radius: 20px;
     padding:10px;
@@ -191,4 +190,53 @@ height:150px;
     margin-top:30px;
     margin-left:50px;
     float:left;
+}
+
+a:link {
+    color: #307d66;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #307d66;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #2bdaa6;
+  }
+
+
+  .hidden
+  {
+    display:none;
+  }
+
+#tooltip
+{
+    position:absolute;
+    color:black;
+    box-shadow: 4px 4px 10px rgba(0,0,0,6);
+    pointer-events:none;
+    /*width:200px;
+    height:200px;*/
+    border-radius: 25px;
+    padding:10px;
+    background-color:white;
+    font-size:1rem;
+}
+
+.nav img
+{
+    float:right;
+    width:40px;
+    height:40px;
+}
+
+.nav
+{
+    position:fixed;
+    top:10px;
+    right:10px;
+
 }

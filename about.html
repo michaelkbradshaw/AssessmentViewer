@@ -1,0 +1,70 @@
+<HTML>
+    <head>
+        <style>
+            table
+            {
+                border-collapse: collapse;
+            }
+            td
+            {
+                padding:10px;
+                text-align: center;
+            }
+            table,th,td
+            {
+                border: 1px solid;
+            }
+            .nav img
+{
+    float:right;
+    width:40px;
+    height:40px;
+}
+
+.nav
+{
+    position:fixed;
+    top:10px;
+    right:10px;
+
+}
+        </style>
+    </head>
+<body>
+
+<h1>About</h1>
+
+<p>This program was developed by Michael K. Bradshaw.  The source code can be referenced here:
+     <a href="https://github.com/michaelkbradshaw/AssessmentViewer">
+        https://github.com/michaelkbradshaw/AssessmentViewer</a></p>
+
+<h2>Credits for visual assets</h2>
+
+<div class="nav">
+    <a href="index.html">
+        <img src="/imgs/BackButton.svg"/>
+    </a>
+</div>
+
+<table id="credits" >
+    <thead>
+    <tr><th>img</th><th>author</th><th>license</th></tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script type="module">
+    import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+    import draw from "./js/drawAbout.js"
+
+    let jsonPromise = d3.json("json/credits.json")
+
+    jsonPromise.then((data)=>
+    {
+        draw("#credits tbody",data)
+    },
+    (err)=>{console.error(err)})
+</script>
+</body>
+</HTML>
+
