@@ -1,6 +1,6 @@
 [
     {
-        "icon":"/imgs/brain.svg",
+        "icon":"../imgs/brain.svg",
         "description":"brain",
         "author":"Lorc",
         "author_link":"https://lorcblog.blogspot.com/",
@@ -8,7 +8,7 @@
         "license_link":"https://creativecommons.org/licenses/by/3.0/"
     },
     {
-        "icon":"/imgs/trophies-shelf.svg",
+        "icon":"./imgs/trophies-shelf.svg",
         "description":"trophies",
         "author":"Delapouite",
         "author_link":"https://delapouite.com/",
@@ -16,7 +16,7 @@
         "license_link":"https://creativecommons.org/licenses/by/3.0/"
     },
     {
-        "icon":"/imgs/info.svg",
+        "icon":"./imgs/info.svg",
         "description":"Info",
         "author":"Delapouite",
         "author_link":"https://delapouite.com/",
@@ -24,7 +24,7 @@
         "license_link":"https://creativecommons.org/licenses/by/3.0/"
     },
     {
-        "icon":"/imgs/bottled-bolt.svg",
+        "icon":"./imgs/bottled-bolt.svg",
         "description":"Bottled Lightning",
         "author":"Lorc",
         "author_link":"https://lorcblog.blogspot.com/",
@@ -32,7 +32,7 @@
         "license_link":"https://creativecommons.org/licenses/by/3.0/"
     },
     {
-        "icon":"/imgs/BackButton.svg",
+        "icon":"./imgs/BackButton.svg",
         "description":"Back Button",
         "author":"Floydian.pulse",
         "author_link":"https://commons.m.wikimedia.org/wiki/File:BackButton.svg",
@@ -40,7 +40,7 @@
         "license_link":"https://creativecommons.org/publicdomain/zero/1.0/deed.en"
     },
     {
-        "icon":"/imgs/Check-list.svg",
+        "icon":"./imgs/Check-list.svg",
         "description":"Check-list",
         "author":"Icons8, CC0, via Wikimedia Commons",
         "author_link":"https://thenounproject.com/icon/50370",

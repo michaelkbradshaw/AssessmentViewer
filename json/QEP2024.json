@@ -142,7 +142,7 @@
     },
     "interventions":[
         {
-            "icon":"/imgs/Check-list.svg",
+            "icon":"./imgs/Check-list.svg",
             "id":"I Syllabus",
             "title":"Syllabus",
             "short":"Faculty will explicitly add soft skills to the syllabus.  This will cause faculty to reflect on how soft skills are delivered in the class and increase visibility of the work faculty are already doing.",
@@ -163,7 +163,7 @@
                 ]
         },
         {
-            "icon":"/imgs/brain.svg",
+            "icon":"./imgs/brain.svg",
             "id":"I counseling",
             "title":"Counseling",
             "short":"Staff will offer programming to help Seniors transition from Centre College and build coping mechanisms for disappointments in the job search.",
@@ -180,7 +180,7 @@
                 ]
         },
         {
-            "icon":"/imgs/trophies-shelf.svg",
+            "icon":"./imgs/trophies-shelf.svg",
             "id":"I DataBase",
             "title":"Resume Database",
             "short":"Students will be invited to upload a resume and 3 cover letters.  Two for dream jobs, one for one of 3 generals jobs.  These profiles will be made available to trusted employers and part of a competition to select exceptional cover letters.",
@@ -193,7 +193,7 @@
                 ]
         },
         {
-            "icon":"/imgs/bottled-bolt.svg",
+            "icon":"./imgs/bottled-bolt.svg",
             "id":"I Training",
             "title":"Staff Training",
             "short":"All employees with supervisory positions over students will learn to mentor SMART planning skills in relation to career planning.",
