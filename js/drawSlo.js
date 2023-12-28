@@ -21,12 +21,12 @@ function drawHeader(target,jsonData,goal)
     nav.append("a")
     .attr("href","about.html")    
     .append("img")
-    .attr("src","/imgs/info.svg")
+    .attr("src","./imgs/info.svg")
 
     nav.append("a")
     .attr("href","index.html")    
     .append("img")
-    .attr("src","/imgs/BackButton.svg")
+    .attr("src","./imgs/BackButton.svg")
 
 
     
