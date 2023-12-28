@@ -20,7 +20,7 @@ function drawHeader(target,jsonData)
     nav.append("a")
     .attr("href","about.html")    
     .append("img")
-    .attr("src","/imgs/info.svg")
+    .attr("src","./imgs/info.svg")
 
     return header;
 }
